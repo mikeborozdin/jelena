@@ -49,11 +49,17 @@ const MarkingPage: React.FC = () => {
                       future.
                     </p>
 
-                    <div className="bg-white p-6 rounded-lg shadow-lg absolute left-[55%] w-[40%]">
-                      The statement that the empire became a great power in
-                      Europe under his rule is vague and lacks context; the
-                      Austro-Hungarian Empire was already a significant power
-                      before his reign.
+                    <div className="absolute left-[55%] w-[40%]">
+                      <div className="bg-white p-6 rounded-lg relative shadow-lg">
+                        <div>
+                          The statement that the empire became a great power in
+                          Europe under his rule is vague and lacks context; the
+                          Austro-Hungarian Empire was already a significant
+                          power before his reign.
+                        </div>
+
+                        <div className="absolute left-0 top-1/2 transform -translate-x-1/2 rotate-45 w-6 h-6 bg-white shadow-lg"></div>
+                      </div>
                     </div>
                   </div>
 
@@ -79,18 +85,25 @@ const MarkingPage: React.FC = () => {
                       stability during times of turmoil.
                     </p>
 
-                    <div className="bg-white p-6 rounded-lg shadow-lg absolute left-[55%] w-[40%]">
-                      <ul className="list-disc">
-                        <li>
-                          The answer would benefit from specific examples of
-                          Franz Joseph&apos;s policies and their consequences to
-                          substantiate the claims.
-                        </li>
-                        <li>
-                          There is no mention of primary or secondary sources,
-                          which would add credibility to the analysis
-                        </li>
-                      </ul>
+                    <div className="absolute left-[55%] w-[40%]">
+                      <div className="bg-white p-6 rounded-lg relative shadow-lg">
+                        <div>
+                          <ul className="list-disc">
+                            <li>
+                              The answer would benefit from specific examples of
+                              Franz Joseph&apos;s policies and their
+                              consequences to substantiate the claims.
+                            </li>
+                            <li>
+                              There is no mention of primary or secondary
+                              sources, which would add credibility to the
+                              analysis
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div className="absolute left-0 top-1/2 transform -translate-x-1/2 rotate-45 w-6 h-6 bg-white shadow-lg"></div>
+                      </div>
                     </div>
                   </div>
                 </div>
